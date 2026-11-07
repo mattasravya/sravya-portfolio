@@ -73,7 +73,7 @@ export default function ResumeModal({ isOpen, onClose }) {
           <div className="flex items-center gap-2">
             {/* Download PDF button */}
             <a
-              href="/resume.pdf"
+              href="./resume.pdf"
               download="Matta_Sravya_Resume.pdf"
               className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#B8FF65] text-[#0B1F1C] font-bold text-xs hover:bg-[#A3F052] transition-colors shadow-sm"
               title="Download Resume PDF"
@@ -260,7 +260,7 @@ export default function ResumeModal({ isOpen, onClose }) {
         <div className="p-4 bg-[#0B1F1C] border-t border-[#294B42] flex items-center justify-between text-xs text-[#849E95]">
           <span>Direct recruiter download ready in PDF format</span>
           <a
-            href="/resume.pdf"
+            href="./resume.pdf"
             download="Matta_Sravya_Resume.pdf"
             className="text-[#B8FF65] hover:underline font-bold"
           >

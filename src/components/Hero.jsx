@@ -215,7 +215,7 @@ export default function Hero({ onOpenResume }) {
                 
                 {/* Real Profile Photograph */}
                 <img
-                  src="/profile.png"
+                  src="./profile.png"
                   alt="Matta Sravya - Professional Developer Photograph"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   loading="eager"

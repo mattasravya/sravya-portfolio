@@ -16,8 +16,8 @@ export const certificatesData = [
       "Reporting & Dashboard Analytics",
       "Certified System Administrator (CSA) Exam Preparation"
     ],
-    imagePath: "/certificates/servicenow-certificate.png",
-    documentPath: "/certificates/servicenow-certificate.png",
+    imagePath: "./certificates/servicenow-certificate.png",
+    documentPath: "./certificates/servicenow-certificate.png",
     documentType: "image",
     issuerLogo: "ServiceNow",
     verified: true
@@ -38,8 +38,8 @@ export const certificatesData = [
       "Full Stack State & API Integration",
       "CRUD Operations & Authentication"
     ],
-    imagePath: "/certificates/mongodb-mern-internship.png",
-    documentPath: "/certificates/mongodb-mern-internship.png",
+    imagePath: "./certificates/mongodb-mern-internship.png",
+    documentPath: "./certificates/mongodb-mern-internship.png",
     documentType: "image",
     issuerLogo: "MongoDB",
     verified: true
@@ -59,8 +59,8 @@ export const certificatesData = [
       "Problem Solving & Competitive Coding",
       "Algorithmic Thinking in Java/Python"
     ],
-    imagePath: "/certificates/bytexl-internship.png",
-    documentPath: "/certificates/bytexl-internship.png",
+    imagePath: "./certificates/bytexl-internship.png",
+    documentPath: "./certificates/bytexl-internship.png",
     documentType: "image",
     issuerLogo: "byteXL",
     verified: true
@@ -81,8 +81,8 @@ export const certificatesData = [
       "Network Security Best Practices",
       "Troubleshooting End-to-End Connectivity"
     ],
-    imagePath: "/certificates/cisco-introduction-to-networks.png",
-    documentPath: "/certificates/cisco-introduction-to-networks.png",
+    imagePath: "./certificates/cisco-introduction-to-networks.png",
+    documentPath: "./certificates/cisco-introduction-to-networks.png",
     documentType: "image",
     issuerLogo: "Cisco",
     verified: true
@@ -102,8 +102,8 @@ export const certificatesData = [
       "Identity and Access Management (IAM)",
       "VPC Networking & Security Groups"
     ],
-    imagePath: "/certificates/aws-cloud-computing.png",
-    documentPath: "/certificates/aws-cloud-computing.pdf",
+    imagePath: "./certificates/aws-cloud-computing.png",
+    documentPath: "./certificates/aws-cloud-computing.pdf",
     documentType: "pdf",
     issuerLogo: "APSSDC",
     disclaimer: "Certificate of Participation in Skill Development Program (APSSDC)",

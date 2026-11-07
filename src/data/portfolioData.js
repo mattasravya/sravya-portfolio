@@ -28,7 +28,7 @@ export const personalInfo = {
     linkedin: "https://www.linkedin.com/in/matta-sravya/",
     github: "https://github.com/mattasravya/",
   },
-  resumeUrl: "/resume.pdf"
+  resumeUrl: "./resume.pdf"
 };
 
 export const navLinks = [
