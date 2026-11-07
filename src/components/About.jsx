@@ -63,10 +63,10 @@ export default function About({ onOpenResume }) {
               <div className="relative rounded-[32px] bg-[#163831] border-2 border-[#294B42] p-5 shadow-2xl">
                 
                 {/* Photo Frame */}
-                <div className="relative aspect-[4/4.8] rounded-2xl overflow-hidden border border-[#B8FF65]/40 mb-5 group">
+                <div className="relative aspect-[4/4.6] rounded-2xl overflow-hidden border border-[#B8FF65]/40 mb-5 group">
                   <img
-                    src="./profile.png"
-                    alt="Matta Sravya"
+                    src="./about-photo.png"
+                    alt="Matta Sravya - Computer Science Student"
                     className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-[#0B1F1C] via-[#0B1F1C]/80 to-transparent">
