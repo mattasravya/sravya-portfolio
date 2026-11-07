@@ -19,7 +19,7 @@ export const personalInfo = {
   stats: [
     { value: 9.20, label: "CGPA", suffix: "", decimals: 2 },
     { value: 2, label: "Featured Projects", suffix: "+", decimals: 0, prefix: "0" },
-    { value: 2, label: "Internship Experiences", suffix: "", decimals: 0, prefix: "0" }
+    { value: 3, label: "Internship Experiences", suffix: "", decimals: 0, prefix: "0" }
   ],
   contact: {
     email: "mattasravya2106@gmail.com",
@@ -143,7 +143,7 @@ export const experiences = [
     company: "Full Stack Developer Virtual Internship",
     type: "Virtual Internship",
     duration: "June 2026 – August 2026",
-    period: "Upcoming / Scheduled",
+    period: "Completed",
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
     highlights: [
       "MERN stack full-lifecycle web development and modular component design",
@@ -151,6 +151,20 @@ export const experiences = [
       "Seamless frontend-backend integration with state synchronization",
       "Database connectivity, aggregation pipelines, and CRUD operations",
       "Adopting clean component-based development and modern JavaScript standards"
+    ]
+  },
+  {
+    role: "Competitive Programming & Algorithmic Techniques Intern",
+    company: "byteXL (at Sri Venkateswara College of Engineering)",
+    type: "Technical Internship",
+    duration: "May 20, 2026 – July 4, 2026",
+    period: "Completed",
+    technologies: ["Competitive Programming", "Advanced Algorithms", "Data Structures", "Java", "Python"],
+    highlights: [
+      "Completed rigorous internship in Competitive Programming and Advanced Algorithmic Techniques",
+      "Engineered efficient solutions utilizing dynamic programming, graph traversal, and greedy algorithms",
+      "Enhanced time-and-space complexity optimization across competitive algorithmic benchmarks",
+      "Earned official Certificate of Completion issued by byteXL and SVCE Tirupati (Reg: 23BFA05245)"
     ]
   },
   {
@@ -178,9 +192,9 @@ export const educationList = [
     scoreType: "CGPA",
     scoreValue: "9.20 / 10.0",
     duration: "2023 – 2027",
-    status: "Currently Pursuing (3rd Year)",
+    status: "Final Year Student",
     highlights: [
-      "Consistently maintaining an exceptional academic record of 9.20 CGPA",
+      "Consistently maintaining an exceptional academic record of 9.20 CGPA throughout engineering coursework",
       "Specializing in Object-Oriented Programming (Java), Data Structures, Algorithms, and Database Management Systems",
       "Active participant in technical symposiums, coding challenges, and collaborative engineering projects"
     ]

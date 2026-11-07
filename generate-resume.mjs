@@ -23,7 +23,7 @@ function generateResumePdf() {
 (Sri Venkateswara College of Engineering (SVCE), Tirupati) Tj
 /F3 9 Tf
 0 -13 Td
-(B.Tech in Computer Science and Engineering | CGPA: 9.20 / 10.0 | 2023 - 2027) Tj
+(B.Tech in Computer Science and Engineering | CGPA: 9.20 / 10.0 | Final Year (2023 - 2027)) Tj
 /F2 10 Tf
 0 -16 Td
 (Sri Chaitanya Junior College, Tirupati) Tj

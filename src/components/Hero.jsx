@@ -234,7 +234,7 @@ export default function Hero({ onOpenResume }) {
                     </div>
                     <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#163831]/90 border border-[#294B42] text-[11px] text-[#B6C8C1] backdrop-blur-sm">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#B8FF65] animate-pulse"></span>
-                      <span>SVCE</span>
+                      <span>SVCE • Final Year</span>
                     </span>
                   </div>
                 </div>
@@ -337,7 +337,7 @@ export default function Hero({ onOpenResume }) {
               </p>
             </div>
 
-            {/* Stat 3: 02 Internship Experiences */}
+            {/* Stat 3: 03 Internship Experiences */}
             <div className="relative group p-6 rounded-3xl bg-[#163831]/80 hover:bg-[#1A423A] border border-[#294B42] hover:border-[#B8FF65]/50 transition-all duration-300 shadow-[0_10px_25px_rgba(0,0,0,0.3)]">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-xs font-bold uppercase tracking-wider text-[#B8FF65] bg-[#0B1F1C] px-3 py-1 rounded-full border border-[#294B42]">
@@ -346,14 +346,14 @@ export default function Hero({ onOpenResume }) {
                 <Database className="w-5 h-5 text-[#B8FF65]" />
               </div>
               <div className="text-4xl sm:text-5xl font-extrabold text-white font-display tracking-tight mt-2 flex items-baseline gap-1">
-                <CountUpNumber end={2} prefix="0" />
+                <CountUpNumber end={3} prefix="0" />
                 <span className="text-2xl text-[#7DE5A1]">+</span>
               </div>
               <div className="text-base font-semibold text-white mt-1">
-                02 Internship Experiences
+                03 Internship Experiences
               </div>
               <p className="text-xs text-[#B6C8C1] mt-1">
-                Full Stack Developer & ServiceNow Internships
+                Full Stack, ServiceNow & byteXL Internships
               </p>
             </div>
           </div>

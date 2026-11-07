@@ -17,7 +17,7 @@ import { personalInfo } from '../data/portfolioData';
 export default function About({ onOpenResume }) {
   const personalDetails = [
     { label: "Name", value: personalInfo.name, icon: User },
-    { label: "Education", value: "B.Tech CSE (2023–2027)", icon: GraduationCap },
+    { label: "Education", value: "B.Tech CSE (Final Year)", icon: GraduationCap },
     { label: "College", value: "SVCE, Tirupati", icon: BookOpen },
     { label: "Location", value: "Cuddapah, AP, India", icon: MapPin },
     { label: "Email", value: personalInfo.contact.email, icon: Mail, isLink: true, href: `mailto:${personalInfo.contact.email}` },
@@ -86,8 +86,8 @@ export default function About({ onOpenResume }) {
                     <span className="text-[#7DE5A1] font-semibold">Full-Stack & Java</span>
                   </div>
                   <div className="flex items-center justify-between text-xs px-3 py-2 rounded-xl bg-[#0B1F1C]/80 border border-[#294B42]">
-                    <span className="text-[#B6C8C1]">Current Year</span>
-                    <span className="text-white font-semibold">3rd Year B.Tech</span>
+                    <span className="text-[#B6C8C1]">Academic Status</span>
+                    <span className="text-white font-semibold">Final Year B.Tech</span>
                   </div>
                 </div>
 
