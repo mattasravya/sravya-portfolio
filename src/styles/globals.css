@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #0B1F1C;
+    color: #FFFFFF;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0B1F1C;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1A423A;
+    border-radius: 9999px;
+    border: 2px solid #0B1F1C;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B8FF65;
+  }
+}
+
+/* Background patterns & textures */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(41, 75, 66, 0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(41, 75, 66, 0.15) 1px, transparent 1px);
+}
+
+.bg-dots-pattern {
+  background-image: radial-gradient(rgba(184, 255, 101, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.gradient-border {
+  position: relative;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(184, 255, 101, 0.4), rgba(41, 75, 66, 0.6), rgba(125, 229, 161, 0.2));
+}
+
+.glow-lime {
+  box-shadow: 0 0 35px -5px rgba(184, 255, 101, 0.25);
+}
+
+.glow-mint {
+  box-shadow: 0 0 35px -5px rgba(125, 229, 161, 0.2);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
