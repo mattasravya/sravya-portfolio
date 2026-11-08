@@ -137,13 +137,14 @@ export default function Hero({ onOpenResume }) {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
-              <button
-                onClick={onOpenResume}
+              <a
+                href="./resume.pdf"
+                download="Matta_Sravya_Resume.pdf"
                 className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full bg-[#163831] hover:bg-[#1A423A] text-white border border-[#294B42] hover:border-[#B8FF65]/60 font-semibold text-sm sm:text-base transition-all duration-200 active:scale-95 group shadow-sm"
               >
                 <Download className="w-4 h-4 text-[#B8FF65] group-hover:-translate-y-0.5 transition-transform" />
                 <span>Download Resume</span>
-              </button>
+              </a>
             </div>
 
             {/* Social Icons & Status */}
